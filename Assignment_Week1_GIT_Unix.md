@@ -45,6 +45,32 @@ Linux & Shell scripting class -
 15. Shell script to check if Disk usage is more than 75% then send an email report
 16. Shell script and run it in background
 17. Shell script to verify if password is expired or how many days left for password to get expired
+18. Blog and practice to add new user into EC2 instance - Additional operations : Delete user, change group for the user, change the permissions for the user, etc
+19. Blog on Journalctl and system loggin
+20. Blog on File and directory commands
+21. Blog on Chomod and chown command, ACL
+22. Shell script to connect different instances and add cron entry to stop instances every night at 11 PM (Cronjob)
+23. Shell script to cleanup filesystem using cron
+24. Shell script to take a backup of instance volumes/drives
+25. Blog and practical on wget and curl command
+26. Connect to web server using CURL and perform GET/POST/PUT/DELETE/UPDATE (CRUD) operations.
+    a. Connect to AWS using REST API and use curl to get a list of instance which are not running.
+    Additionally, once you get a list terminate those instance. COMING SOON
+
+27. Blog on NMTUI - set static IP address, hostname, dns of instance
+   a. Azure
+   b. AWS
+   C. GCP
+   D. Local
+28. Blog on file/directory compression and extraction with practical
+29. Shell script to find files+directories which have more than 1GB in size, and send a report via email
+30. Shell script to find files which have permission provided by the user as input
+31. Blog to create your own Linux command + practical
+32. Shell script to manage instances - (Create, terminate, Stop) a. Azure b. AWS C. GCP
+33. System status project with top and /proc/meminfo + /proc/cpuinfo command
+34. Send email report only if a. CPU usage of the process is more than 70% b. Memory usage of the process is more than 75%
+35. COPY system_program files (zip,tar) into remote machine and set a cron job to run the program at twice in a day
+
     
 References Link -
 1. Git installation : https://git-scm.com/downloads
@@ -56,6 +82,11 @@ References Link -
 7. Docker Playground - https://labs.play-with-docker.com/
 8. Kubernetes Playground - https://labs.play-with-k8s.com/
 9. Get IP Address - https://www.whatismyip.com/
+10. Add EC2 user - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/managing-users.html
+11. STOP ec2 instance using command - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Stop_Start.html#starting-stopping-instances
+12. Crontab.guru - https://crontab.guru/#0_23___*
+13. GMAIL APP PASSWORD - https://myaccount.google.com/apppasswords
+
     
 
 
